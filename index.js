@@ -1047,7 +1047,7 @@ function animateValue(obj, start, end, duration) {
 
 
 
-const OPENROUTER_API_KEY = "VITE_OPENROUTER_API_KEY=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"; // حط مفتاحك هنا
+const OPENROUTER_API_KEY = "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"; // حط مفتاحك هنا
 
 async function getAIResponse(prompt) {
   try {
