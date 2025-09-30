@@ -1,5 +1,6 @@
 
 
+
 const translations = {
   en: {
     meta_title: "Golden Studio - Marketing & Advertising",
@@ -8,15 +9,12 @@ const translations = {
     nav_home: "Home",
     nav_services: "Services",
     nav_portfolio: "Our Work",
-    nav_ai_tools: "AI Tools",
     nav_contact: "Contact",
     hero_title: "Golden Studio for Marketing & Advertising",
     hero_subtitle: "We create innovative advertising solutions to grow your business.",
     hero_cta: "Get Started",
     about_title: "About Us",
     about_text: "We are a passionate team of creators, strategists, and innovators dedicated to elevating brands. Our mission is to combine artistic vision with marketing expertise to deliver results that matter and stories that resonate.",
-    ai_suite_title: "AI-Powered Strategy Suite",
-    ai_suite_subtitle: "Engage with our innovative tools to generate marketing ideas and analyze your growth potential instantly.",
     expertise_title: "Our Expertise",
     expertise_subtitle: "From creative concepts to flawless execution, see what we do and how we've helped others succeed.",
     services_title: "Our Services",
@@ -35,13 +33,6 @@ const translations = {
     service_5_desc: "Data-driven marketing strategies and high-performance paid ad campaigns for maximum ROI.",
     service_6_title: "Restaurant Tech Solutions",
     service_6_desc: "Modern QR code menus with an integrated ordering system to streamline your restaurant's service.",
-    analyzer_title: "Analyze Your Growth Potential",
-    analyzer_subtitle: "See how Golden Studio's services can accelerate your success. Choose your business type and the services you're interested in for a custom AI-powered growth projection in seconds.",
-    analyzer_step_1_title: "Step 1: Define Your Business",
-    analyzer_step_2_title: "Step 2: Select Your Services",
-    analyzer_location_label: "First, where is your business located?",
-    analyzer_business_type_label: "First, what is your business type?",
-    analyzer_business_type_placeholder: "e.g., Fish Restaurant, Clothing Store...",
     analyzer_service_photo: "Photography",
     analyzer_service_video_prod: "Video Production",
     analyzer_service_video_edit: "Video Editing",
@@ -54,36 +45,19 @@ const translations = {
     analyzer_service_sm_manage: "Social Media Management",
     analyzer_sm_platforms_label: "Platforms to Manage",
     analyzer_sm_frequency_label: "Update Frequency",
-    analyzer_cta_btn: "Analyze Growth",
-    analyzer_cta_btn_loading: "Analyzing...",
-    analyzer_result_title: "Your 6-Month Growth Projection",
-    analyzer_result_timeline: "Estimated growth over the next 6 months",
-    analyzer_result_breakdown_title: "Service Contribution Breakdown",
-    analyzer_result_summary: "Synergy Summary",
-    analyzer_result_disclaimer: "This analysis is a projection based on AI and market data, not a guarantee of results.",
-    analyzer_error: "Sorry, we couldn't generate an analysis at this moment. Please try again later.",
-    analyzer_cta_whatsapp: "Send Full Analysis via WhatsApp",
     portfolio_title: "Our Work",
     portfolio_cta_title: "Explore Our Full Portfolio",
     portfolio_cta_subtitle: "See all our latest projects, client success stories, and behind-the-scenes content on our official Facebook page.",
     portfolio_cta_btn: "View on Facebook",
     testimonials_title: "What Our Clients Say",
     add_testimonial_btn: "Add Your Testimonial",
-    testimonial_form_title: "Share Your Experience",
-    ai_title: "Get Instant Marketing Ideas",
-    ai_subtitle: "Describe your business, and our AI will generate creative marketing ideas for you in seconds.",
-    ai_input_placeholder: "e.g., A modern coffee shop in New Cairo",
-    ai_generate_btn: "Generate Ideas",
-    ai_generating_btn: "Generating...",
-    ai_proceed_btn: "Proceed with Selected Ideas",
-    ai_error: "Sorry, we couldn't generate ideas at this moment. Please try again later.",
     contact_title: "Let's Work Together",
     contact_subtitle: "Send your request quickly via WhatsApp",
     contact_form_name: "Your Name",
     contact_form_business: "Business Activity",
     contact_form_phone: "Phone Number",
     contact_form_phone_placeholder: "Your number",
-    selected_ideas_title: "I want to implement these ideas:",
+    contact_services_title: "Which services are you interested in?",
     contact_challenges_title: "What challenges is your business facing?",
     challenges: {
         "prefer_competitors": "Customers prefer competitors",
@@ -113,15 +87,6 @@ const translations = {
     modal_contact: "Contact Us",
     footer_copyright: "© 2025 Golden Studio – All Rights Reserved.",
     footer_privacy_policy: "Privacy Policy",
-    service_name_map: {
-        "Photography": "analyzer_service_photo",
-        "Video Production": "analyzer_service_video_prod",
-        "Video Editing": "analyzer_service_video_edit",
-        "Social Media Design": "analyzer_service_sm_design",
-        "Paid Advertising": "analyzer_service_paid_ads",
-        "Google Maps Optimization": "analyzer_service_gmaps",
-        "Social Media Management": "analyzer_service_sm_manage",
-    },
     privacy_title: "Privacy Policy",
     privacy_last_updated_label: "Last updated:",
     privacy_last_updated_date: "July 29, 2024",
@@ -142,9 +107,6 @@ const translations = {
     privacy_contact_title: "Contact Us",
     privacy_contact_text: "If you have any questions about this Privacy Policy, please contact us:",
     privacy_contact_list: `<li>By email: salman01099525798@gmail.com</li><li>By phone number: +201099525798</li>`,
-    tooltip_generate_ideas: "Let our AI create marketing ideas based on your business description.",
-    tooltip_analyze_growth: "Get an AI-powered growth forecast based on your selections.",
-    analyzer_select_service_alert: "Please select at least one service.",
     analyzer_select_governorate_placeholder: "Select a governorate...",
     analyzer_select_city_placeholder: "Select a city...",
     contact_form_error: "Please fill in all required fields.",
@@ -156,15 +118,12 @@ const translations = {
     nav_home: "الرئيسية",
     nav_services: "خدماتنا",
     nav_portfolio: "أعمالنا",
-    nav_ai_tools: "أدوات الذكاء الاصطناعي",
     nav_contact: "تواصل معنا",
     hero_title: "جولدن ستوديو للتسويق والإعلان",
     hero_subtitle: "نبتكر حلولاً إعلانية فريدة لتنمية أعمالك.",
     hero_cta: "ابدأ الآن",
     about_title: "من نحن",
     about_text: "نحن فريق شغوف من المبدعين والاستراتيجيين والمبتكرين، نكرس جهودنا للارتقاء بالعلامات التجارية. مهمتنا هي دمج الرؤية الفنية مع الخبرة التسويقية لتقديم نتائج مؤثرة وقصص ملهمة.",
-    ai_suite_title: "مجموعة أدوات الاستراتيجية بالذكاء الاصطناعي",
-    ai_suite_subtitle: "تفاعل مع أدواتنا المبتكرة لتوليد أفكار تسويقية وتحليل إمكانيات نمو مشروعك على الفور.",
     expertise_title: "خبراتنا",
     expertise_subtitle: "من المفاهيم الإبداعية إلى التنفيذ المتقن، شاهد ما نفعله وكيف ساعدنا الآخرين على النجاح.",
     services_title: "خدماتنا",
@@ -183,13 +142,6 @@ const translations = {
     service_5_desc: "استراتيجيات تسويق قائمة على البيانات وحملات إعلانية مدفوعة عالية الأداء لتحقيق أقصى عائد.",
     service_6_title: "حلول تقنية للمطاعم",
     service_6_desc: "قوائم طعام QR Code حديثة مع نظام طلب متكامل لتسهيل خدمة مطعمك وزيادة الكفاءة.",
-    analyzer_title: "حلل إمكانيات نمو مشروعك",
-    analyzer_subtitle: "شاهد كيف يمكن لخدمات جولدن ستوديو أن تسرّع نجاحك. اختر نوع عملك والخدمات التي تهتم بها للحصول على توقعات نمو مخصصة مدعومة بالذكاء الاصطناعي في ثوانٍ.",
-    analyzer_step_1_title: "الخطوة 1: حدد طبيعة عملك",
-    analyzer_step_2_title: "الخطوة 2: اختر خدماتك",
-    analyzer_location_label: "أولاً، أين يقع نشاطك التجاري؟",
-    analyzer_business_type_label: "أولاً، ما هو نوع نشاطك التجاري؟",
-    analyzer_business_type_placeholder: "مثال: مطعم أسماك، متجر ملابس...",
     analyzer_service_photo: "تصوير فوتوغرافي",
     analyzer_service_video_prod: "إنتاج فيديو",
     analyzer_service_video_edit: "مونتاج فيديو",
@@ -202,36 +154,19 @@ const translations = {
     analyzer_service_sm_manage: "إدارة صفحات السوشيال ميديا",
     analyzer_sm_platforms_label: "المنصات المراد إدارتها",
     analyzer_sm_frequency_label: "معدل التحديث",
-    analyzer_cta_btn: "تحليل النمو",
-    analyzer_cta_btn_loading: "جاري التحليل...",
-    analyzer_result_title: "توقعات نموك خلال 6 أشهر",
-    analyzer_result_timeline: "النمو المتوقع خلال الـ 6 أشهر القادمة",
-    analyzer_result_breakdown_title: "تفاصيل مساهمة كل خدمة",
-    analyzer_result_summary: "ملخص التأثير التكاملي",
-    analyzer_result_disclaimer: "هذا التحليل هو توقع مبني على بيانات الذكاء الاصطناعي والسوق، وليس ضمانًا للنتائج.",
-    analyzer_error: "عذرًا، لم نتمكن من إنشاء التحليل في الوقت الحالي. يرجى المحاولة مرة أخرى لاحقًا.",
-    analyzer_cta_whatsapp: "أرسل التحليل الكامل عبر واتساب",
     portfolio_title: "أعمالنا",
     portfolio_cta_title: "اكتشف معرض أعمالنا الكامل",
     portfolio_cta_subtitle: "شاهد أحدث مشاريعنا وقصص نجاح عملائنا ومحتوى ما وراء الكواليس على صفحتنا الرسمية على فيسبوك.",
     portfolio_cta_btn: "شاهد على فيسبوك",
     testimonials_title: "ماذا يقول عملاؤنا",
     add_testimonial_btn: "أضف تقييمك",
-    testimonial_form_title: "شاركنا تجربتك",
-    ai_title: "احصل على أفكار تسويقية فورية",
-    ai_subtitle: "صف نشاطك التجاري، وسيقوم الذكاء الاصطناعي بتوليد أفكار تسويقية مبتكرة لك في ثوانٍ.",
-    ai_input_placeholder: "مثال: مقهى عصري في القاهرة الجديدة",
-    ai_generate_btn: "توليد أفكار",
-    ai_generating_btn: "جاري التوليد...",
-    ai_proceed_btn: "متابعة بالأفكار المحددة",
-    ai_error: "عذرًا، لم نتمكن من توليد الأفكار في الوقت الحالي. يرجى المحاولة مرة أخرى لاحقًا.",
     contact_title: "دعنا نعمل معًا",
     contact_subtitle: "أرسل طلبك بسرعة عبر واتساب",
     contact_form_name: "اسمك",
     contact_form_business: "نشاطك التجاري",
     contact_form_phone: "رقم الهاتف",
     contact_form_phone_placeholder: "رقمك",
-    selected_ideas_title: "أرغب في تنفيذ هذه الأفكار:",
+    contact_services_title: "ما هي الخدمات التي تهتم بها؟",
     contact_challenges_title: "ما هي التحديات التي تواجه عملك؟",
     challenges: {
       "prefer_competitors": "العملاء يفضلون المنافسين",
@@ -261,15 +196,6 @@ const translations = {
     modal_contact: "تواصل معنا",
     footer_copyright: "© 2025 جولدن ستوديو – جميع الحقوق محفوظة.",
     footer_privacy_policy: "سياسة الخصوصية",
-    service_name_map: {
-        "Photography": "analyzer_service_photo",
-        "Video Production": "analyzer_service_video_prod",
-        "Video Editing": "analyzer_service_video_edit",
-        "Social Media Design": "analyzer_service_sm_design",
-        "Paid Advertising": "analyzer_service_paid_ads",
-        "Google Maps Optimization": "analyzer_service_gmaps",
-        "Social Media Management": "analyzer_service_sm_manage",
-    },
     privacy_title: "سياسة الخصوصية",
     privacy_last_updated_label: "آخر تحديث:",
     privacy_last_updated_date: "29 يوليو 2024",
@@ -290,9 +216,6 @@ const translations = {
     privacy_contact_title: "اتصل بنا",
     privacy_contact_text: "إذا كان لديك أي أسئلة حول سياسة الخصوصية هذه، يرجى الاتصال بنا:",
     privacy_contact_list: `<li>عبر البريد الإلكتروني: salman01099525798@gmail.com</li><li>عبر رقم الهاتف: 201099525798+</li>`,
-    tooltip_generate_ideas: "دع الذكاء الاصطناعي يبتكر أفكارًا تسويقية بناءً على وصف عملك.",
-    tooltip_analyze_growth: "احصل على توقعات نمو مدعومة بالذكاء الاصطناعي بناءً على اختياراتك.",
-    analyzer_select_service_alert: "يرجى اختيار خدمة واحدة على الأقل.",
     analyzer_select_governorate_placeholder: "اختر محافظة...",
     analyzer_select_city_placeholder: "اختر مدينة...",
     contact_form_error: "يرجى ملء جميع الحقول المطلوبة.",
@@ -323,7 +246,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     initializeTestimonials();
     loadLocationData();
     populateChallenges();
-    initializeTooltips();
     
     if (window.innerWidth >= 768) {
         const cursorGlow = getElem('cursor-glow');
@@ -368,7 +290,6 @@ async function setLanguage(lang) {
     updatePlaceholders();
     populateCountryCodes();
     populateChallenges(); // Repopulate to get correct language
-    initializeTooltips(); // Re-initialize to update tooltip text
 }
 
 function getTranslation(key, lang = currentLang) {
@@ -441,19 +362,11 @@ function initializeEventListeners() {
     setupModalClose('privacy-policy-modal');
     getElem('privacy-policy-link').addEventListener('click', () => showModal('privacy-policy-modal'));
 
-    // AI Assistant
-    getElem('ai-form').addEventListener('submit', handleAIAssistantSubmit);
-    getElem('ai-cta-btn').addEventListener('click', handleProceedWithIdeas);
-
-    // Growth Analyzer
-    getElem('analyze-growth-btn').addEventListener('click', generateGrowthAnalysis);
-    getElem('analyzer-business-type').addEventListener('input', toggleAnalyzeButtonState);
-    getElem('service-selector-grid').addEventListener('click', handleServiceSelection);
-
     // Contact Form
     getElem('country-select').addEventListener('change', handleCountryChange);
     getElem('governorate-select').addEventListener('change', handleGovernorateChange);
     getElem('whatsapp-form').addEventListener('submit', handleWhatsAppSubmit);
+    getElem('service-selector-grid').addEventListener('click', handleServiceSelection);
 
     // Service Tabs
     const tabsContainer = querySel('.services-tabs');
@@ -491,14 +404,6 @@ function initializeObserver(selector) {
         });
     }, { threshold: 0.1 });
     querySelAll(selector).forEach(el => observer.observe(el));
-}
-
-// Tooltips
-function initializeTooltips() {
-    querySelAll('[data-tooltip-key]').forEach(el => {
-        const key = el.dataset.tooltipKey;
-        el.setAttribute('data-tooltip', getTranslation(key));
-    });
 }
 
 // --- Testimonials ---
@@ -584,104 +489,7 @@ function setupModalClose(modalId) {
     }
 }
 
-// --- AI Assistant ---
-async function handleAIAssistantSubmit(event) {
-    event.preventDefault();
-    
-    const descriptionInput = getElem('ai-business-description');
-    const generateBtn = getElem('ai-generate-btn');
-    const ctaBtn = getElem('ai-cta-btn');
-    const resultsContainer = getElem('ai-results-container');
-    
-    const description = descriptionInput.value.trim();
-    if (!description) {
-        descriptionInput.focus();
-        return;
-    }
 
-    setButtonLoading(generateBtn, true, getTranslation('ai_generating_btn'));
-    resultsContainer.innerHTML = '';
-    ctaBtn.hidden = true;
-
-    try {
-        // This endpoint '/generate-ideas' should be configured in your firebase.json
-        // to rewrite to your Firebase Function.
-        const response = await fetch('/api/generate-ideas', {
-  method: 'POST',
-  headers: { 'Content-Type': 'application/json' },
-  body: JSON.stringify({
-    description: description,
-    lang: currentLang
-  })
-});
-
-
-
-        if (!response.ok) {
-            throw new Error(`API error! status: ${response.status}`);
-        }
-
-        const ideas = await response.json();
-        displayAIResults(ideas);
-
-    } catch (error) {
-        console.error("Error calling backend for marketing ideas:", error);
-        resultsContainer.innerHTML = `<p class="error-message">${getTranslation('ai_error')}</p>`;
-    } finally {
-        setButtonLoading(generateBtn, false, getTranslation('ai_generate_btn'));
-    }
-}
-
-function displayAIResults(ideas) {
-    const resultsContainer = getElem('ai-results-container');
-    const ctaBtn = getElem('ai-cta-btn');
-
-    if (!ideas || !Array.isArray(ideas) || ideas.length === 0) {
-        resultsContainer.innerHTML = `<p>${getTranslation('ai_error')}</p>`;
-        return;
-    }
-
-    resultsContainer.innerHTML = ideas.map((idea, index) => `
-        <label for="idea-${index}" class="idea-card" style="animation-delay: ${index * 100}ms;">
-            <input type="checkbox" id="idea-${index}" name="selected_idea" value="${idea.title}">
-            <div class="idea-card-content">
-                <h3>${idea.title}</h3>
-                <p>${idea.description}</p>
-            </div>
-        </label>
-    `).join('');
-
-    ctaBtn.hidden = false;
-    ctaBtn.disabled = true;
-
-    resultsContainer.addEventListener('change', () => {
-        const selectedCount = querySelAll('input[name="selected_idea"]:checked').length;
-        ctaBtn.disabled = selectedCount === 0;
-    });
-}
-
-function handleProceedWithIdeas() {
-    const selectedIdeas = Array.from(querySelAll('input[name="selected_idea"]:checked'))
-        .map(checkbox => checkbox.value);
-    
-    if (selectedIdeas.length > 0) {
-        const selectedIdeasContainer = getElem('selected-ideas-container');
-        const selectedIdeasList = getElem('selected-ideas-list');
-        
-        selectedIdeasList.innerHTML = `<ul>${selectedIdeas.map(idea => `<li>${idea}</li>`).join('')}</ul>`;
-        selectedIdeasContainer.hidden = false;
-        
-        const contactSection = getElem('contact');
-        const waBusinessInput = getElem('wa-business');
-        const aiDescription = getElem('ai-business-description').value;
-        if(aiDescription) waBusinessInput.value = aiDescription;
-
-        contactSection.scrollIntoView({ behavior: 'smooth' });
-        waBusinessInput.focus();
-    }
-}
-
-// --- Growth Potential Analyzer (Real Backend Call) ---
 function handleServiceSelection(event) {
     const card = event.target.closest('.service-selector-card');
     if (!card) return;
@@ -695,130 +503,6 @@ function handleServiceSelection(event) {
     }
 }
 
-function toggleAnalyzeButtonState() {
-    const businessTypeInput = getElem('analyzer-business-type');
-    const analyzeBtn = getElem('analyze-growth-btn');
-    analyzeBtn.disabled = !businessTypeInput.value.trim();
-}
-
-async function generateGrowthAnalysis() {
-    const analyzeBtn = getElem('analyze-growth-btn');
-    const resultsPanel = getElem('growth-results-panel');
-    const businessType = getElem('analyzer-business-type').value;
-
-    const selectedServices = Array.from(querySelAll('.service-selector-card.selected[data-service]'))
-        .map(card => card.dataset.service);
-
-    const complexCard = querySel('.service-selector-card.selected[data-service-group]');
-    if (complexCard) {
-        const platform = querySel('input[name="sm_platform"]:checked')?.value || "Facebook & Instagram";
-        const duration = querySel('input[name="sm_duration"]:checked')?.value || "12 hours";
-        const smService = `Social Media Management (${platform}, updates every ${duration})`;
-        selectedServices.push(smService);
-    }
-
-    if (selectedServices.length === 0) {
-        alert(getTranslation('analyzer_select_service_alert'));
-        return;
-    }
-
-    setButtonLoading(analyzeBtn, true, getTranslation('analyzer_cta_btn_loading'));
-    resultsPanel.hidden = true;
-
-    try {
-        // This endpoint '/generate-growth-analysis' should be configured in your firebase.json
-        // to rewrite to your Firebase Function.
-        const response = await fetch('/generate-growth-analysis', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-                businessType: businessType,
-                services: selectedServices,
-                lang: currentLang
-            })
-        });
-
-        if (!response.ok) {
-            throw new Error(`HTTP error! status: ${response.status}`);
-        }
-
-        const analysisData = await response.json();
-        displayGrowthAnalysis(analysisData);
-
-    } catch (error) {
-        console.error("Error calling backend for growth analysis:", error);
-        alert(getTranslation('analyzer_error'));
-    } finally {
-        setButtonLoading(analyzeBtn, false, getTranslation('analyzer_cta_btn'));
-    }
-}
-
-function displayGrowthAnalysis(analysisData) {
-    if (!analysisData || !analysisData.service_breakdown || !Array.isArray(analysisData.service_breakdown)) {
-        console.error("Invalid or incomplete analysis data received:", analysisData);
-        alert(getTranslation('analyzer_error'));
-        return;
-    }
-
-    const resultsPanel = getElem('growth-results-panel');
-    const percentageDisplay = getElem('growth-percentage-display');
-    const progressCircle = getElem('growth-progress-circle');
-    const summaryText = getElem('growth-summary-text');
-    const breakdownList = getElem('growth-breakdown-list');
-
-    const totalGrowth = Math.round(analysisData.growth_percentage);
-    summaryText.textContent = analysisData.synergy_summary;
-    breakdownList.innerHTML = ''; 
-
-    analysisData.service_breakdown.forEach(item => {
-        const li = document.createElement('li');
-        li.className = 'breakdown-item';
-        li.innerHTML = `
-            <div class="breakdown-info">
-                <span>${item.service_name}</span>
-                <span class="service-contribution">+${Math.round(item.contribution_percentage)}%</span>
-            </div>
-            <div class="breakdown-bar-container">
-                <div class="breakdown-bar-fill" style="width: 0%;"></div>
-            </div>
-            <p class="breakdown-rationale">${item.rationale}</p>
-        `;
-        breakdownList.appendChild(li);
-
-        setTimeout(() => {
-            const bar = li.querySelector('.breakdown-bar-fill');
-            if (bar) {
-                 bar.style.width = `${(item.contribution_percentage / totalGrowth) * 100}%`;
-            }
-        }, 100);
-    });
-
-    resultsPanel.hidden = false;
-    resultsPanel.scrollIntoView({ behavior: 'smooth', block: 'center' });
-
-    progressCircle.style.setProperty('--p', totalGrowth);
-    animateValue(percentageDisplay, 0, totalGrowth, 1500);
-
-    const businessType = getElem('analyzer-business-type').value;
-    const waLink = getElem('whatsapp-analysis-link');
-    const waMessage = generateWhatsAppAnalysisMessage(businessType, analysisData);
-    waLink.href = `https://wa.me/201099525798?text=${encodeURIComponent(waMessage)}`;
-}
-
-function generateWhatsAppAnalysisMessage(businessType, analysisData) {
-    let message = `*Golden Studio - Growth Analysis*\n\n`;
-    message += `*Business Type:* ${businessType}\n`;
-    message += `*Projected 6-Month Growth:* ${Math.round(analysisData.growth_percentage)}%\n\n`;
-    message += `*Synergy Summary:*\n${analysisData.synergy_summary}\n\n`;
-    message += `*Service Contribution Breakdown:*\n`;
-
-    analysisData.service_breakdown.forEach(item => {
-        message += `• *${item.service_name}:* +${Math.round(item.contribution_percentage)}%\n`;
-        message += `  - ${item.rationale}\n`;
-    });
-    message += `\nThis analysis was generated by the AI tool on the Golden Studio website. I would like to discuss these results further.`;
-    return message;
-}
 
 // --- Contact Form & Location ---
 async function loadLocationData() {
@@ -957,12 +641,22 @@ function handleWhatsAppSubmit(event) {
         return;
     }
     
-    const selectedIdeasContainer = getElem('selected-ideas-container');
-    let ideasText = "";
-    if (!selectedIdeasContainer.hidden) {
-        const ideasList = getElem('selected-ideas-list').querySelectorAll('li');
-        const ideas = Array.from(ideasList).map(li => `- ${li.textContent}`).join('\n');
-        ideasText = `*${getTranslation('selected_ideas_title')}*\n${ideas}\n\n`;
+    // Collect selected services
+    const selectedServicesCards = Array.from(querySelAll('.service-selector-card.selected[data-service]'))
+        .map(card => card.dataset.service);
+    
+    const complexCard = querySel('.service-selector-card.selected[data-service-group]');
+    if (complexCard) {
+        const platform = querySel('input[name="sm_platform"]:checked')?.value || "Facebook & Instagram";
+        const duration = querySel('input[name="sm_duration"]:checked')?.value || "12 hours";
+        const smService = `Social Media Management (${platform}, updates every ${duration})`;
+        selectedServicesCards.push(smService);
+    }
+    
+    let servicesText = "";
+    if (selectedServicesCards.length > 0) {
+        const servicesList = selectedServicesCards.map(service => `- ${service}`).join('\n');
+        servicesText = `*${getTranslation('contact_services_title')}*\n${servicesList}\n\n`;
     }
 
     const selectedChallenges = Array.from(querySelAll('.challenge-tag.selected'))
@@ -992,7 +686,7 @@ function handleWhatsAppSubmit(event) {
 *Business Activity:* ${business}
 *Phone:* ${phoneCode}${phone}
 ${locationText}
-${ideasText}${challengesText}${otherProblemText}
+${servicesText}${challengesText}${otherProblemText}
     `.trim().replace(/\n\s*\n/g, '\n\n');
 
     const whatsappURL = `https://wa.me/201099525798?text=${encodeURIComponent(message)}`;
@@ -1023,60 +717,3 @@ function setButtonLoading(button, isLoading, loadingText) {
         if(spinner) spinner.hidden = true;
     }
 }
-
-function animateValue(obj, start, end, duration) {
-    let startTimestamp = null;
-    const step = (timestamp) => {
-        if (!startTimestamp) startTimestamp = timestamp;
-        const progress = Math.min((timestamp - startTimestamp) / duration, 1);
-        obj.innerHTML = Math.floor(progress * (end - start) + start) + '%';
-        if (progress < 1) {
-            window.requestAnimationFrame(step);
-        }
-    };
-    window.requestAnimationFrame(step);
-}
-
-
-
-
-
-
-
-
-
-
-
-const OPENROUTER_API_KEY = "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"; // حط مفتاحك هنا
-
-async function getAIResponse(prompt) {
-  try {
-    const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
-      method: "POST",
-      headers: {
-        Authorization: `Bearer ${OPENROUTER_API_KEY}`,
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({
-        model: "openrouter/auto",
-        messages: [{ role: "user", content: prompt }],
-      }),
-    });
-
-    const data = await response.json();
-    console.log("AI Response:", data);
-
-    alert(data.choices?.[0]?.message?.content || "مفيش رد");
-  } catch (error) {
-    console.error("AI error:", error);
-    alert("حصل خطأ في الاتصال بالذكاء الاصطناعي");
-  }
-}
-
-// زرار للتجربة
-document.addEventListener("DOMContentLoaded", () => {
-  const btn = document.createElement("button");
-  btn.textContent = "اسأل الذكاء الاصطناعي";
-  btn.onclick = () => getAIResponse("Hello, can you hear me?");
-  document.body.appendChild(btn);
-});

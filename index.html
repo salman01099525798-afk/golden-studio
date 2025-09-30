@@ -98,7 +98,6 @@
                     <a href="#home" class="nav-link" data-i18n="nav_home">Home</a>
                     <a href="#services" class="nav-link" data-i18n="nav_services">Services</a>
                     <a href="#portfolio" class="nav-link" data-i18n="nav_portfolio">Our Work</a>
-                    <a href="#ai-suite" class="nav-link" data-i18n="nav_ai_tools">AI Tools</a>
                     <a href="#contact" class="nav-link nav-contact-mobile" data-i18n="nav_contact">Contact</a>
                 </div>
             </div>
@@ -117,25 +116,11 @@
     </header>
     <main>
         <!-- Hero Section -->
-   <button id="ai-test-btn">جرب الذكاء الاصطناعي</button>
-
-
         <section id="home" class="hero-section">
             <div class="hero-content content-section">
                 <h1 data-i18n="hero_title">Golden Studio for Marketing & Advertising</h1>
                 <p data-i18n="hero_subtitle">We create innovative advertising solutions to grow your business.</p>
                 <a href="#services" class="btn btn-primary btn-lg" id="hero-cta-btn" data-i18n="hero_cta">Get Started</a>
-            </div>
-        </section>
-
-        <!-- About Us Section -->
-        <section id="about" class="content-section">
-            <div class="section-header">
-                <h2 data-i18n="about_title">About Us</h2>
-                 <p class="subtitle" data-i18n="expertise_subtitle">From creative concepts to flawless execution, see what we do and how we've helped others succeed.</p>
-            </div>
-            <div class="about-us-content">
-                 <p data-i18n="about_text">We are a passionate team of creators, strategists, and innovators dedicated to elevating brands. Our mission is to combine artistic vision with marketing expertise to deliver results that matter and stories that resonate.</p>
             </div>
         </section>
 
@@ -200,176 +185,14 @@
             </div>
         </section>
 
-        <!-- AI Strategy Suite Section -->
-        <section id="ai-suite" class="content-section">
-            <h2 data-i18n="ai_suite_title">AI-Powered Strategy Suite</h2>
-            <p class="contact-subtitle" data-i18n="ai_suite_subtitle">Engage with our innovative tools to generate marketing ideas and analyze your growth potential instantly.</p>
-
-            <!-- AI Marketing Assistant Section -->
-            <section id="ai-assistant">
-                <h2 data-i18n="ai_title">Get Instant Marketing Ideas</h2>
-                <p class="contact-subtitle" data-i18n="ai_subtitle">Describe your business, and our AI will generate creative marketing ideas for you in seconds.</p>
-            
-                <form id="ai-form" class="ai-form" novalidate>
-                    <div class="form-group">
-                        <label for="ai-business-description" class="sr-only" data-i18n="ai_input_placeholder">e.g., A modern coffee shop in New Cairo</label>
-                        <textarea id="ai-business-description" rows="3" required data-i18n="ai_input_placeholder" placeholder="e.g., A modern coffee shop in New Cairo"></textarea>
-                        <div class="error-message" id="ai-description-error" hidden></div>
-                    </div>
-                    <button type="submit" id="ai-generate-btn" class="btn btn-primary" data-tooltip-key="tooltip_generate_ideas">
-                         <span class="btn-content">
-                            <i class="fas fa-lightbulb"></i>
-                            <span data-i18n="ai_generate_btn">Generate Ideas</span>
-                        </span>
-                        <span class="spinner" hidden></span>
-                    </button>
-                </form>
-            
-                <div id="ai-results-container" class="ai-results-container">
-                    <!-- AI results will be injected here -->
-                </div>
-                
-                <button type="button" id="ai-cta-btn" class="btn btn-secondary" data-i18n="ai_proceed_btn" hidden disabled>Proceed with Selected Ideas</button>
-            </section>
-
-            <!-- Growth Potential Analyzer Section -->
-            <section id="growth-analyzer">
-                <h2 data-i18n="analyzer_title">Analyze Your Growth Potential</h2>
-                <p class="contact-subtitle" data-i18n="analyzer_subtitle">See how Golden Studio's services can accelerate your success. Choose your business type and the services you're interested in for a custom AI-powered growth projection in seconds.</p>
-                
-                <div class="analyzer-form-container">
-                    <div class="analyzer-step">
-                        <div class="analyzer-step-header">
-                            <span class="step-number">1</span>
-                            <h3 data-i18n="analyzer_step_1_title">Step 1: Define Your Business</h3>
-                        </div>
-                        <div class="form-group">
-                            <label for="analyzer-business-type" class="sr-only" data-i18n="analyzer_business_type_label">First, what is your business type?</label>
-                            <input type="text" id="analyzer-business-type" name="analyzer_business_type" required data-i18n="analyzer_business_type_placeholder" placeholder="e.g., Fish Restaurant, Clothing Store...">
-                        </div>
-                    </div>
-
-                    <div class="analyzer-step">
-                         <div class="analyzer-step-header">
-                            <span class="step-number">2</span>
-                            <h3 data-i18n="analyzer_step_2_title">Step 2: Select Your Services</h3>
-                        </div>
-                        <div class="service-selector-grid" id="service-selector-grid">
-                            <div class="service-selector-card" data-service="Photography">
-                                <i class="fas fa-camera"></i>
-                                <span data-i18n="analyzer_service_photo">Photography</span>
-                            </div>
-                            <div class="service-selector-card" data-service="Video Production">
-                                <i class="fas fa-video"></i>
-                                <span data-i18n="analyzer_service_video_prod">Video Production</span>
-                            </div>
-                            <div class="service-selector-card" data-service="Video Editing">
-                                <i class="fas fa-film"></i>
-                                <span data-i18n="analyzer_service_video_edit">Video Editing</span>
-                            </div>
-                            <div class="service-selector-card" data-service="Social Media Design">
-                                <i class="fas fa-pen-nib"></i>
-                                <span data-i18n="analyzer_service_sm_design">Social Media Design</span>
-                            </div>
-                            <div class="service-selector-card selected" data-service="Paid Advertising">
-                                <i class="fas fa-bullseye"></i>
-                                <span data-i18n="analyzer_service_paid_ads">Paid Advertising</span>
-                            </div>
-                            <div class="service-selector-card" data-service="Google Maps Optimization">
-                                <i class="fas fa-map-marked-alt"></i>
-                                <span data-i18n="analyzer_service_gmaps">Google Maps Optimization</span>
-                            </div>
-                            <div class="service-selector-card service-selector-card-complex selected" data-service-group="Social Media Management">
-                                <div class="card-header">
-                                    <div class="card-header-icons">
-                                        <i class="fab fa-facebook-f"></i>
-                                        <i class="fab fa-instagram"></i>
-                                        <i class="fab fa-tiktok"></i>
-                                    </div>
-                                    <span data-i18n="analyzer_service_sm_manage">Social Media Management</span>
-                                </div>
-                                <div class="sm-options-container">
-                                    <div class="sm-options-group">
-                                        <span class="sm-options-title" data-i18n="analyzer_sm_platforms_label">Platforms to Manage</span>
-                                        <div class="sm-options">
-                                            <label class="sm-option-label">
-                                                <input type="radio" name="sm_platform" value="Facebook">
-                                                <i class="fab fa-facebook-f"></i>
-                                                <span data-i18n="analyzer_service_paid_ads_fb">Facebook</span>
-                                            </label>
-                                            <label class="sm-option-label">
-                                                <input type="radio" name="sm_platform" value="Facebook & Instagram" checked>
-                                                <i class="fab fa-facebook-f"></i>
-                                                <i class="fab fa-instagram"></i>
-                                                <span data-i18n="analyzer_service_paid_ads_fb_ig">Facebook & Instagram</span>
-                                            </label>
-                                            <label class="sm-option-label">
-                                                <input type="radio" name="sm_platform" value="Facebook, Instagram & TikTok">
-                                                <i class="fab fa-facebook-f"></i>
-                                                <i class="fab fa-instagram"></i>
-                                                <i class="fab fa-tiktok"></i>
-                                                <span data-i18n="analyzer_service_paid_ads_fb_ig_tk">Facebook, Instagram & TikTok</span>
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="sm-options-group">
-                                        <span class="sm-options-title" data-i18n="analyzer_sm_frequency_label">Update Frequency</span>
-                                        <div class="sm-options">
-                                            <label class="sm-option-label">
-                                                <input type="radio" name="sm_duration" value="12 hours" checked>
-                                                <span>12H</span>
-                                            </label>
-                                            <label class="sm-option-label">
-                                                <input type="radio" name="sm_duration" value="24 hours">
-                                                <span>24H</span>
-                                            </label>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <button type="button" id="analyze-growth-btn" class="btn btn-primary" disabled data-tooltip-key="tooltip_analyze_growth">
-                        <span class="btn-content">
-                            <i class="fas fa-chart-line"></i>
-                            <span data-i18n="analyzer_cta_btn">Analyze Growth</span>
-                        </span>
-                        <span class="spinner" hidden></span>
-                    </button>
-                </div>
-
-                <div class="growth-results-panel" id="growth-results-panel" hidden>
-                    <h3 class="result-title" data-i18n="analyzer_result_title">Your 6-Month Growth Projection</h3>
-                    <div class="results-main-visual">
-                        <div class="progress-circle" id="growth-progress-circle" style="--p:0;">
-                            <span class="growth-percentage" id="growth-percentage-display">0%</span>
-                        </div>
-                        <div class="results-summary">
-                            <p class="growth-timeline" data-i18n="analyzer_result_timeline">Estimated growth over the next 6 months</p>
-                            <h4 data-i18n="analyzer_result_summary">Synergy Summary</h4>
-                            <p id="growth-summary-text"></p>
-                        </div>
-                    </div>
-                
-                    <div class="analysis-section">
-                        <h4 data-i18n="analyzer_result_breakdown_title">Service Contribution Breakdown</h4>
-                        <ul class="growth-breakdown-list" id="growth-breakdown-list">
-                            <!-- Breakdown items will be injected here -->
-                        </ul>
-                    </div>
-                    
-                    <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="whatsapp-analysis-link">
-                        <i class="fab fa-whatsapp"></i> <span data-i18n="analyzer_cta_whatsapp">Send Full Analysis via WhatsApp</span>
-                    </a>
-                    <p class="growth-disclaimer" data-i18n="analyzer_result_disclaimer">This analysis is a projection based on AI and market data, not a guarantee of results.</p>
-                </div>
-            </section>
-        </section>
-
-        <!-- Portfolio CTA Section -->
+        <!-- Portfolio & About Section -->
         <section id="portfolio" class="content-section">
             <div class="section-header">
-                <h2 data-i18n="portfolio_title">Our Work</h2>
+                <h2 data-i18n="about_title">About Us & Our Work</h2>
+                 <p class="subtitle" data-i18n="expertise_subtitle">From creative concepts to flawless execution, see what we do and how we've helped others succeed.</p>
+            </div>
+            <div class="about-us-content">
+                 <p data-i18n="about_text">We are a passionate team of creators, strategists, and innovators dedicated to elevating brands. Our mission is to combine artistic vision with marketing expertise to deliver results that matter and stories that resonate.</p>
             </div>
             <div class="portfolio-cta-container">
                 <h3 data-i18n="portfolio_cta_title">Explore Our Full Portfolio</h3>
@@ -417,13 +240,84 @@
                     <div class="error-message" id="wa-business-error" hidden></div>
                 </div>
 
-                <div id="selected-ideas-container" class="form-group" hidden>
-                    <h3 class="form-label" data-i18n="selected_ideas_title">I want to implement these ideas:</h3>
-                    <div id="selected-ideas-list">
-                        <!-- Selected ideas will be injected here -->
+                 <div class="form-group">
+                    <label class="form-label" data-i18n="contact_services_title">Which services are you interested in?</label>
+                    <div class="service-selector-grid" id="service-selector-grid">
+                        <div class="service-selector-card" data-service="Photography">
+                            <i class="fas fa-camera"></i>
+                            <span data-i18n="analyzer_service_photo">Photography</span>
+                        </div>
+                        <div class="service-selector-card" data-service="Video Production">
+                            <i class="fas fa-video"></i>
+                            <span data-i18n="analyzer_service_video_prod">Video Production</span>
+                        </div>
+                        <div class="service-selector-card" data-service="Video Editing">
+                            <i class="fas fa-film"></i>
+                            <span data-i18n="analyzer_service_video_edit">Video Editing</span>
+                        </div>
+                        <div class="service-selector-card" data-service="Social Media Design">
+                            <i class="fas fa-pen-nib"></i>
+                            <span data-i18n="analyzer_service_sm_design">Social Media Design</span>
+                        </div>
+                        <div class="service-selector-card selected" data-service="Paid Advertising">
+                            <i class="fas fa-bullseye"></i>
+                            <span data-i18n="analyzer_service_paid_ads">Paid Advertising</span>
+                        </div>
+                        <div class="service-selector-card" data-service="Google Maps Optimization">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <span data-i18n="analyzer_service_gmaps">Google Maps Optimization</span>
+                        </div>
+                        <div class="service-selector-card service-selector-card-complex selected" data-service-group="Social Media Management">
+                            <div class="card-header">
+                                <div class="card-header-icons">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <i class="fab fa-instagram"></i>
+                                    <i class="fab fa-tiktok"></i>
+                                </div>
+                                <span data-i18n="analyzer_service_sm_manage">Social Media Management</span>
+                            </div>
+                            <div class="sm-options-container">
+                                <div class="sm-options-group">
+                                    <span class="sm-options-title" data-i18n="analyzer_sm_platforms_label">Platforms to Manage</span>
+                                    <div class="sm-options">
+                                        <label class="sm-option-label">
+                                            <input type="radio" name="sm_platform" value="Facebook">
+                                            <i class="fab fa-facebook-f"></i>
+                                            <span data-i18n="analyzer_service_paid_ads_fb">Facebook</span>
+                                        </label>
+                                        <label class="sm-option-label">
+                                            <input type="radio" name="sm_platform" value="Facebook & Instagram" checked>
+                                            <i class="fab fa-facebook-f"></i>
+                                            <i class="fab fa-instagram"></i>
+                                            <span data-i18n="analyzer_service_paid_ads_fb_ig">Facebook & Instagram</span>
+                                        </label>
+                                        <label class="sm-option-label">
+                                            <input type="radio" name="sm_platform" value="Facebook, Instagram & TikTok">
+                                            <i class="fab fa-facebook-f"></i>
+                                            <i class="fab fa-instagram"></i>
+                                            <i class="fab fa-tiktok"></i>
+                                            <span data-i18n="analyzer_service_paid_ads_fb_ig_tk">Facebook, Instagram & TikTok</span>
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="sm-options-group">
+                                    <span class="sm-options-title" data-i18n="analyzer_sm_frequency_label">Update Frequency</span>
+                                    <div class="sm-options">
+                                        <label class="sm-option-label">
+                                            <input type="radio" name="sm_duration" value="12 hours" checked>
+                                            <span>12H</span>
+                                        </label>
+                                        <label class="sm-option-label">
+                                            <input type="radio" name="sm_duration" value="24 hours">
+                                            <span>24H</span>
+                                        </label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                
+
                 <div class="form-group">
                     <label id="wa-challenges-label" class="form-label" data-i18n="contact_challenges_title">What challenges is your business facing?</label>
                     <div id="challenges-grid" class="challenges-grid" aria-labelledby="wa-challenges-label" role="group">
@@ -567,9 +461,7 @@
         </div>
     </div>
     
-<script src="index.js" type="module"></script>
-<script src="assets/js/app.js"></script>
-
-
+    <script src="index.js" type="module"></script>
+<script type="module" src="/index.tsx"></script>
 </body>
 </html>
