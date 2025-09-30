@@ -609,8 +609,12 @@ async function handleAIAssistantSubmit(event) {
         const response = await fetch('/api/generate-ideas', {
   method: 'POST',
   headers: { 'Content-Type': 'application/json' },
-  body: JSON.stringify({ description, lang })
+  body: JSON.stringify({
+    description: description,
+    lang: currentLang
+  })
 });
+
 
 
         if (!response.ok) {
