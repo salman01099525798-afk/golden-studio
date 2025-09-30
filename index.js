@@ -607,14 +607,11 @@ async function handleAIAssistantSubmit(event) {
         // This endpoint '/generate-ideas' should be configured in your firebase.json
         // to rewrite to your Firebase Function.
         const response = await fetch('/api/generate-ideas', {
+  method: 'POST',
+  headers: { 'Content-Type': 'application/json' },
+  body: JSON.stringify({ description, lang })
+});
 
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({
-                description: description,
-                lang: currentLang
-            })
-        });
 
         if (!response.ok) {
             throw new Error(`API error! status: ${response.status}`);
