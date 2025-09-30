@@ -1,0 +1,570 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags -->
+    <title data-i18n="meta_title">Golden Studio - الاستوديو الذهبي | Marketing & Advertising</title>
+    <meta name="description" data-i18n="meta_description" content="Golden Studio is an advertising agency specializing in digital marketing, video production, photography, branding, and design. | جولدن ستوديو هي وكالة دعاية وإعلان متخصصة في التسويق الرقمي، إنتاج الفيديو، التصوير، الهوية البصرية والتصميم.">
+    <meta name="keywords" content="Golden Studio, الاستوديو الذهبي, دعاية وإعلان, تسويق رقمي, تصوير, براندينج, marketing, advertising, branding, digital marketing, video production, photography">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Golden Studio - الاستوديو الذهبي">
+    <meta property="og:title" data-i18n="meta_title" content="Golden Studio - الاستوديو الذهبي | Marketing & Advertising">
+    <meta property="og:description" data-i18n="meta_description" content="Golden Studio is an advertising agency specializing in digital marketing, video production, photography, branding, and design. | جولدن ستوديو هي وكالة دعاية وإعلان متخصصة في التسويق الرقمي، إنتاج الفيديو، التصوير، الهوية البصرية والتصميم.">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&q=80&fm=jpg&w=1200&h=630&fit=crop">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:title" data-i18n="meta_title" content="Golden Studio - الاستوديو الذهبي | Marketing & Advertising">
+    <meta property="twitter:description" data-i18n="meta_description" content="Golden Studio is an advertising agency specializing in digital marketing, video production, photography, branding, and design. | جولدن ستوديو هي وكالة دعاية وإعلان متخصصة في التسويق الرقمي، إنتاج الفيديو، التصوير، الهوية البصرية والتصميم.">
+    <meta property="twitter:image" content="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&q=80&fm=jpg&w=1200&h=630&fit=crop">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='15' fill='%23C5A46D'/><text x='50%25' y='50%25' dominant-baseline='central' text-anchor='middle' font-size='60' font-weight='bold' fill='%230d0d0d' font-family='Poppins'>GS</text></svg>">
+    
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Tajawal:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HLX628Q278"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-HLX628Q278');
+    </script>
+    
+    <script type="importmap">
+{
+  "imports": {
+    "@google/genai": "https://esm.sh/@google/genai@1.0.0",
+    "leaflet": "https://esm.sh/leaflet@1.9.4",
+    "leaflet.locatecontrol": "https://esm.sh/leaflet.locatecontrol@0.79.0",
+    "leaflet-geosearch": "https://esm.sh/leaflet-geosearch@3.11.0"
+  }
+}
+</script>
+    
+    <!-- SEO: LocalBusiness Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Golden Studio",
+      "description": "Video and photo production, editing, social media design, logo and visual identity",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Fifth Settlement",
+        "addressLocality": "New Cairo",
+        "addressRegion": "Cairo",
+        "addressCountry": "EG"
+      },
+      "telephone": "+201099525798",
+      "email": "salman01099525798@gmail.com",
+      "openingHours": "Mo,Tu,We,Th,Fr,Sa,Su 10:00-22:00",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+201099525798",
+        "contactType": "customer service",
+        "url": "https://wa.me/201099525798"
+      }
+    }
+    </script>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <div class="blob-container">
+        <div class="blob"></div>
+        <div class="blob"></div>
+        <div class="blob"></div>
+    </div>
+    <div id="cursor-glow"></div>
+
+    <!-- Header -->
+    <header class="main-header">
+        <nav class="main-nav">
+            <a href="#home" class="logo nav-link" aria-label="Golden Studio Home">
+                <img src="images/logo-final11.png" alt="Golden Studio Logo" class="site-logo">
+            </a>
+            <div class="nav-links-container" id="nav-links-container">
+                <div class="nav-links">
+                    <a href="#home" class="nav-link" data-i18n="nav_home">Home</a>
+                    <a href="#services" class="nav-link" data-i18n="nav_services">Services</a>
+                    <a href="#portfolio" class="nav-link" data-i18n="nav_portfolio">Our Work</a>
+                    <a href="#ai-suite" class="nav-link" data-i18n="nav_ai_tools">AI Tools</a>
+                    <a href="#contact" class="nav-link nav-contact-mobile" data-i18n="nav_contact">Contact</a>
+                </div>
+            </div>
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-primary nav-link" data-i18n="nav_contact">Contact</a>
+                <div class="lang-switcher">
+                    <button type="button" id="lang-toggle" aria-label="Toggle Language">EN</button>
+                </div>
+            </div>
+            <button class="burger-menu" id="burger-menu" aria-controls="nav-links-container" aria-expanded="false" aria-label="Toggle Navigation Menu">
+                <div class="burger-bar"></div>
+                <div class="burger-bar"></div>
+                <div class="burger-bar"></div>
+            </button>
+        </nav>
+    </header>
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="hero-content content-section">
+                <h1 data-i18n="hero_title">Golden Studio for Marketing & Advertising</h1>
+                <p data-i18n="hero_subtitle">We create innovative advertising solutions to grow your business.</p>
+                <a href="#services" class="btn btn-primary btn-lg" id="hero-cta-btn" data-i18n="hero_cta">Get Started</a>
+            </div>
+        </section>
+
+        <!-- About Us Section -->
+        <section id="about" class="content-section">
+            <div class="section-header">
+                <h2 data-i18n="about_title">About Us</h2>
+                 <p class="subtitle" data-i18n="expertise_subtitle">From creative concepts to flawless execution, see what we do and how we've helped others succeed.</p>
+            </div>
+            <div class="about-us-content">
+                 <p data-i18n="about_text">We are a passionate team of creators, strategists, and innovators dedicated to elevating brands. Our mission is to combine artistic vision with marketing expertise to deliver results that matter and stories that resonate.</p>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="content-section">
+            <h2 data-i18n="services_title">Our Services</h2>
+            
+            <!-- Service Tabs Navigation -->
+            <div class="services-tabs">
+                <button type="button" class="tab-btn active" data-tab="creative" data-i18n="services_tab_creative">Creative & Branding</button>
+                <button type="button" class="tab-btn" data-tab="marketing" data-i18n="services_tab_marketing">Digital Marketing</button>
+                <button type="button" class="tab-btn" data-tab="tech" data-i18n="services_tab_tech">Specialized Solutions</button>
+            </div>
+        
+            <!-- Service Tab Content -->
+            <div class="services-tab-content">
+                <!-- Creative Tab Panel -->
+                <div id="tab-creative" class="services-panel active">
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <i class="fas fa-clapperboard"></i>
+                            <h3 data-i18n="service_1_title">Content & Production</h3>
+                            <p data-i18n="service_1_desc">Stunning video & photo production, from concept to final edit, to capture your brand's essence.</p>
+                        </div>
+                        <div class="service-card">
+                            <i class="fas fa-signature"></i>
+                            <h3 data-i18n="service_2_title">Branding & Identity</h3>
+                            <p data-i18n="service_2_desc">Crafting memorable logos and a complete visual identity that makes your brand stand out.</p>
+                        </div>
+                        <div class="service-card">
+                            <i class="fas fa-swatchbook"></i>
+                            <h3 data-i18n="service_3_title">Visual & Graphic Design</h3>
+                            <p data-i18n="service_3_desc">Engaging social media graphics and striking visual designs that demand attention.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Marketing Tab Panel -->
+                <div id="tab-marketing" class="services-panel">
+                    <div class="services-grid">
+                        <div class="service-card">
+                            <i class="fas fa-hashtag"></i>
+                            <h3 data-i18n="service_4_title">Digital Presence</h3>
+                            <p data-i18n="service_4_desc">Comprehensive social media management and Google Maps optimization to boost your online visibility.</p>
+                        </div>
+                        <div class="service-card">
+                            <i class="fas fa-rocket"></i>
+                            <h3 data-i18n="service_5_title">Advanced Marketing</h3>
+                            <p data-i18n="service_5_desc">Data-driven marketing strategies and high-performance paid ad campaigns for maximum ROI.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Tech Tab Panel -->
+                <div id="tab-tech" class="services-panel">
+                    <div class="services-grid single-item">
+                         <div class="service-card">
+                            <i class="fas fa-qrcode"></i>
+                            <h3 data-i18n="service_6_title">Restaurant Tech Solutions</h3>
+                            <p data-i18n="service_6_desc">Modern QR code menus with an integrated ordering system to streamline your restaurant's service.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- AI Strategy Suite Section -->
+        <section id="ai-suite" class="content-section">
+            <h2 data-i18n="ai_suite_title">AI-Powered Strategy Suite</h2>
+            <p class="contact-subtitle" data-i18n="ai_suite_subtitle">Engage with our innovative tools to generate marketing ideas and analyze your growth potential instantly.</p>
+
+            <!-- AI Marketing Assistant Section -->
+            <section id="ai-assistant">
+                <h2 data-i18n="ai_title">Get Instant Marketing Ideas</h2>
+                <p class="contact-subtitle" data-i18n="ai_subtitle">Describe your business, and our AI will generate creative marketing ideas for you in seconds.</p>
+            
+                <form id="ai-form" class="ai-form" novalidate>
+                    <div class="form-group">
+                        <label for="ai-business-description" class="sr-only" data-i18n="ai_input_placeholder">e.g., A modern coffee shop in New Cairo</label>
+                        <textarea id="ai-business-description" rows="3" required data-i18n="ai_input_placeholder" placeholder="e.g., A modern coffee shop in New Cairo"></textarea>
+                        <div class="error-message" id="ai-description-error" hidden></div>
+                    </div>
+                    <button type="submit" id="ai-generate-btn" class="btn btn-primary" data-tooltip-key="tooltip_generate_ideas">
+                         <span class="btn-content">
+                            <i class="fas fa-lightbulb"></i>
+                            <span data-i18n="ai_generate_btn">Generate Ideas</span>
+                        </span>
+                        <span class="spinner" hidden></span>
+                    </button>
+                </form>
+            
+                <div id="ai-results-container" class="ai-results-container">
+                    <!-- AI results will be injected here -->
+                </div>
+                
+                <button type="button" id="ai-cta-btn" class="btn btn-secondary" data-i18n="ai_proceed_btn" hidden disabled>Proceed with Selected Ideas</button>
+            </section>
+
+            <!-- Growth Potential Analyzer Section -->
+            <section id="growth-analyzer">
+                <h2 data-i18n="analyzer_title">Analyze Your Growth Potential</h2>
+                <p class="contact-subtitle" data-i18n="analyzer_subtitle">See how Golden Studio's services can accelerate your success. Choose your business type and the services you're interested in for a custom AI-powered growth projection in seconds.</p>
+                
+                <div class="analyzer-form-container">
+                    <div class="analyzer-step">
+                        <div class="analyzer-step-header">
+                            <span class="step-number">1</span>
+                            <h3 data-i18n="analyzer_step_1_title">Step 1: Define Your Business</h3>
+                        </div>
+                        <div class="form-group">
+                            <label for="analyzer-business-type" class="sr-only" data-i18n="analyzer_business_type_label">First, what is your business type?</label>
+                            <input type="text" id="analyzer-business-type" name="analyzer_business_type" required data-i18n="analyzer_business_type_placeholder" placeholder="e.g., Fish Restaurant, Clothing Store...">
+                        </div>
+                    </div>
+
+                    <div class="analyzer-step">
+                         <div class="analyzer-step-header">
+                            <span class="step-number">2</span>
+                            <h3 data-i18n="analyzer_step_2_title">Step 2: Select Your Services</h3>
+                        </div>
+                        <div class="service-selector-grid" id="service-selector-grid">
+                            <div class="service-selector-card" data-service="Photography">
+                                <i class="fas fa-camera"></i>
+                                <span data-i18n="analyzer_service_photo">Photography</span>
+                            </div>
+                            <div class="service-selector-card" data-service="Video Production">
+                                <i class="fas fa-video"></i>
+                                <span data-i18n="analyzer_service_video_prod">Video Production</span>
+                            </div>
+                            <div class="service-selector-card" data-service="Video Editing">
+                                <i class="fas fa-film"></i>
+                                <span data-i18n="analyzer_service_video_edit">Video Editing</span>
+                            </div>
+                            <div class="service-selector-card" data-service="Social Media Design">
+                                <i class="fas fa-pen-nib"></i>
+                                <span data-i18n="analyzer_service_sm_design">Social Media Design</span>
+                            </div>
+                            <div class="service-selector-card selected" data-service="Paid Advertising">
+                                <i class="fas fa-bullseye"></i>
+                                <span data-i18n="analyzer_service_paid_ads">Paid Advertising</span>
+                            </div>
+                            <div class="service-selector-card" data-service="Google Maps Optimization">
+                                <i class="fas fa-map-marked-alt"></i>
+                                <span data-i18n="analyzer_service_gmaps">Google Maps Optimization</span>
+                            </div>
+                            <div class="service-selector-card service-selector-card-complex selected" data-service-group="Social Media Management">
+                                <div class="card-header">
+                                    <div class="card-header-icons">
+                                        <i class="fab fa-facebook-f"></i>
+                                        <i class="fab fa-instagram"></i>
+                                        <i class="fab fa-tiktok"></i>
+                                    </div>
+                                    <span data-i18n="analyzer_service_sm_manage">Social Media Management</span>
+                                </div>
+                                <div class="sm-options-container">
+                                    <div class="sm-options-group">
+                                        <span class="sm-options-title" data-i18n="analyzer_sm_platforms_label">Platforms to Manage</span>
+                                        <div class="sm-options">
+                                            <label class="sm-option-label">
+                                                <input type="radio" name="sm_platform" value="Facebook">
+                                                <i class="fab fa-facebook-f"></i>
+                                                <span data-i18n="analyzer_service_paid_ads_fb">Facebook</span>
+                                            </label>
+                                            <label class="sm-option-label">
+                                                <input type="radio" name="sm_platform" value="Facebook & Instagram" checked>
+                                                <i class="fab fa-facebook-f"></i>
+                                                <i class="fab fa-instagram"></i>
+                                                <span data-i18n="analyzer_service_paid_ads_fb_ig">Facebook & Instagram</span>
+                                            </label>
+                                            <label class="sm-option-label">
+                                                <input type="radio" name="sm_platform" value="Facebook, Instagram & TikTok">
+                                                <i class="fab fa-facebook-f"></i>
+                                                <i class="fab fa-instagram"></i>
+                                                <i class="fab fa-tiktok"></i>
+                                                <span data-i18n="analyzer_service_paid_ads_fb_ig_tk">Facebook, Instagram & TikTok</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="sm-options-group">
+                                        <span class="sm-options-title" data-i18n="analyzer_sm_frequency_label">Update Frequency</span>
+                                        <div class="sm-options">
+                                            <label class="sm-option-label">
+                                                <input type="radio" name="sm_duration" value="12 hours" checked>
+                                                <span>12H</span>
+                                            </label>
+                                            <label class="sm-option-label">
+                                                <input type="radio" name="sm_duration" value="24 hours">
+                                                <span>24H</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button type="button" id="analyze-growth-btn" class="btn btn-primary" disabled data-tooltip-key="tooltip_analyze_growth">
+                        <span class="btn-content">
+                            <i class="fas fa-chart-line"></i>
+                            <span data-i18n="analyzer_cta_btn">Analyze Growth</span>
+                        </span>
+                        <span class="spinner" hidden></span>
+                    </button>
+                </div>
+
+                <div class="growth-results-panel" id="growth-results-panel" hidden>
+                    <h3 class="result-title" data-i18n="analyzer_result_title">Your 6-Month Growth Projection</h3>
+                    <div class="results-main-visual">
+                        <div class="progress-circle" id="growth-progress-circle" style="--p:0;">
+                            <span class="growth-percentage" id="growth-percentage-display">0%</span>
+                        </div>
+                        <div class="results-summary">
+                            <p class="growth-timeline" data-i18n="analyzer_result_timeline">Estimated growth over the next 6 months</p>
+                            <h4 data-i18n="analyzer_result_summary">Synergy Summary</h4>
+                            <p id="growth-summary-text"></p>
+                        </div>
+                    </div>
+                
+                    <div class="analysis-section">
+                        <h4 data-i18n="analyzer_result_breakdown_title">Service Contribution Breakdown</h4>
+                        <ul class="growth-breakdown-list" id="growth-breakdown-list">
+                            <!-- Breakdown items will be injected here -->
+                        </ul>
+                    </div>
+                    
+                    <a href="#" target="_blank" rel="noopener noreferrer" class="btn btn-primary" id="whatsapp-analysis-link">
+                        <i class="fab fa-whatsapp"></i> <span data-i18n="analyzer_cta_whatsapp">Send Full Analysis via WhatsApp</span>
+                    </a>
+                    <p class="growth-disclaimer" data-i18n="analyzer_result_disclaimer">This analysis is a projection based on AI and market data, not a guarantee of results.</p>
+                </div>
+            </section>
+        </section>
+
+        <!-- Portfolio CTA Section -->
+        <section id="portfolio" class="content-section">
+            <div class="section-header">
+                <h2 data-i18n="portfolio_title">Our Work</h2>
+            </div>
+            <div class="portfolio-cta-container">
+                <h3 data-i18n="portfolio_cta_title">Explore Our Full Portfolio</h3>
+                <p class="subtitle" data-i18n="portfolio_cta_subtitle">See all our latest projects, client success stories, and behind-the-scenes content on our official Facebook page.</p>
+                <a href="https://www.facebook.com/profile.php?id=100084158911356" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg portfolio-cta-btn">
+                    <i class="fab fa-facebook-f"></i>
+                    <span data-i18n="portfolio_cta_btn">View on Facebook</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="content-section">
+            <h2 data-i18n="testimonials_title">What Our Clients Say</h2>
+            <div class="testimonial-slider-wrapper">
+                <div class="testimonial-slider-container" id="testimonial-slider">
+                    <!-- Testimonials will be loaded here -->
+                </div>
+                <button id="testimonial-prev" class="testimonial-nav prev" aria-label="Previous testimonial">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button id="testimonial-next" class="testimonial-nav next" aria-label="Next testimonial">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            <div class="add-testimonial-container">
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSeYlLQKJxPxkzkUeNV5z64WNWC83-dBx0aO17HjtV4kwGi-EA/viewform?usp=sf_link" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" data-i18n="add_testimonial_btn">Add Your Testimonial</a>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="content-section">
+            <h2 data-i18n="contact_title">Let's Work Together</h2>
+            <p class="contact-subtitle" data-i18n="contact_subtitle">Send your request quickly via WhatsApp</p>
+            <form class="contact-form" id="whatsapp-form" novalidate>
+                <div class="form-group">
+                    <label for="wa-name" class="sr-only" data-i18n="contact_form_name">Your Name</label>
+                    <input type="text" id="wa-name" name="name" required data-i18n="contact_form_name" placeholder="Your Name">
+                    <div class="error-message" id="wa-name-error" hidden></div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="wa-business" class="sr-only" data-i18n="contact_form_business">Business Activity</label>
+                    <input type="text" id="wa-business" name="business" required data-i18n="contact_form_business" placeholder="Business Activity">
+                    <div class="error-message" id="wa-business-error" hidden></div>
+                </div>
+
+                <div id="selected-ideas-container" class="form-group" hidden>
+                    <h3 class="form-label" data-i18n="selected_ideas_title">I want to implement these ideas:</h3>
+                    <div id="selected-ideas-list">
+                        <!-- Selected ideas will be injected here -->
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label id="wa-challenges-label" class="form-label" data-i18n="contact_challenges_title">What challenges is your business facing?</label>
+                    <div id="challenges-grid" class="challenges-grid" aria-labelledby="wa-challenges-label" role="group">
+                        <!-- Challenges will be dynamically injected here -->
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="wa-other-problem" class="sr-only" data-i18n="contact_form_other_problem">Other problem or more details...</label>
+                    <textarea id="wa-other-problem" name="other-problem" rows="4" data-i18n="contact_form_other_problem" placeholder="Other problem or more details..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="country-select" class="form-label" data-i18n="contact_country_title">Which country are you from?</label>
+                    <div class="custom-select-wrapper">
+                        <select id="country-select" name="country" class="governorate-select" required>
+                             <option value="" disabled selected data-i18n="select_country_placeholder">Select your country...</option>
+                            <option value="egypt" data-i18n="country_egypt">Egypt</option>
+                            <option value="iraq" data-i18n="country_iraq">Iraq</option>
+                            <option value="other" data-i18n="country_other">Other</option>
+                        </select>
+                    </div>
+                    <div class="error-message" id="country-error" hidden></div>
+                </div>
+
+                <div id="governorates-container" hidden>
+                    <div id="location-selectors" class="location-selectors-grid">
+                        <div class="custom-select-wrapper">
+                            <select id="governorate-select" name="governorate" class="governorate-select">
+                                <!-- Populated by JS -->
+                            </select>
+                        </div>
+                        <div class="custom-select-wrapper">
+                            <select id="city-select" name="city" class="governorate-select" disabled>
+                                <!-- Populated by JS -->
+                            </select>
+                        </div>
+                    </div>
+                    <div class="error-message" id="location-error" hidden></div>
+                     <p id="location-note" class="location-note" data-i18n="location_note">Please choose your location carefully so we can provide you with the best service.</p>
+                </div>
+                <p id="country-error-message" class="country-error" hidden data-i18n="country_error"></p>
+
+                <div class="form-group">
+                    <label for="wa-phone" class="form-label" data-i18n="contact_form_phone">Phone Number</label>
+                    <div class="phone-input-group">
+                         <div class="custom-select-wrapper">
+                            <select id="phone-code-select" name="phone-code" class="governorate-select" required>
+                                <!-- Populated by JS -->
+                            </select>
+                        </div>
+                        <input type="tel" id="wa-phone" name="phone" required data-i18n="contact_form_phone_placeholder" placeholder="Your number" pattern="[0-9]+">
+                    </div>
+                    <div class="error-message" id="wa-phone-error" hidden></div>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-lg" id="submit-btn">
+                    <span class="btn-content">
+                        <i class="fab fa-whatsapp"></i>
+                        <span data-i18n="contact_form_whatsapp_submit">Send via WhatsApp</span>
+                    </span>
+                    <span class="spinner" hidden></span>
+                </button>
+            </form>
+            <div class="social-links">
+                <a href="https://www.facebook.com/profile.php?id=100084158911356" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/golden_studio_official_eg/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.tiktok.com/@golden_studio_official" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p data-i18n="footer_copyright">© 2025 Golden Studio – All Rights Reserved.</p>
+            <nav class="footer-nav">
+                 <button type="button" id="privacy-policy-link" class="footer-link-btn" data-i18n="footer_privacy_policy">Privacy Policy</button>
+            </nav>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button type="button" id="scroll-to-top" class="scroll-to-top" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    
+    <!-- WhatsApp FAB -->
+    <a href="https://wa.me/201099525798" class="whatsapp-fab" id="whatsapp-fab" target="_blank" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+    
+    <!-- Lightbox Modal -->
+    <div id="lightbox-modal" class="modal-overlay lightbox" hidden>
+        <div class="modal-content">
+            <button type="button" class="modal-close" aria-label="Close image viewer">&times;</button>
+            <img src="" alt="Portfolio work large view" id="lightbox-image">
+        </div>
+    </div>
+    
+    <!-- Case Study Modal -->
+    <div id="case-study-modal" class="modal-overlay" hidden>
+        <div class="modal-content">
+            <button type="button" class="modal-close" aria-label="Close modal">&times;</button>
+            <h2 id="case-study-title" data-i18n="portfolio_case_study_modal_title">Case Study</h2>
+            <div id="case-study-content">
+                <p data-i18n="portfolio_case_study_modal_content">Case study details for this project are coming soon! We'll outline the client's goals, our strategic solutions, and the amazing results we achieved together.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Privacy Policy Modal -->
+    <div id="privacy-policy-modal" class="modal-overlay" hidden>
+        <div class="modal-content">
+            <button type="button" class="modal-close" aria-label="Close modal">&times;</button>
+            <div class="privacy-content">
+                <h1 data-i18n="privacy_title">Privacy Policy</h1>
+                <p><strong data-i18n="privacy_last_updated_label">Last updated:</strong> <span data-i18n="privacy_last_updated_date">July 29, 2024</span></p>
+                <p data-i18n="privacy_intro"></p>
+                
+                <h2 data-i18n="privacy_collection_title"></h2>
+                <p data-i18n="privacy_collection_text"></p>
+                <h3 data-i18n="privacy_types_title"></h3>
+                <h4 data-i18n="privacy_personal_data_title"></h4>
+                <p data-i18n="privacy_personal_data_text"></p>
+                <ul data-i18n="privacy_personal_data_list"></ul>
+                <h4 data-i18n="privacy_usage_data_title"></h4>
+                <p data-i18n="privacy_usage_data_text"></p>
+                
+                <h2 data-i18n="privacy_use_title"></h2>
+                <p data-i18n="privacy_use_text"></p>
+                <ul data-i18n="privacy_use_list"></ul>
+                
+                <h2 data-i18n="privacy_changes_title"></h2>
+                <p data-i18n="privacy_changes_text"></p>
+                
+                <h2 data-i18n="privacy_contact_title"></h2>
+                <p data-i18n="privacy_contact_text"></p>
+                <ul data-i18n="privacy_contact_list"></ul>
+            </div>
+        </div>
+    </div>
+    
+    <script src="index.js" type="module"></script>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>

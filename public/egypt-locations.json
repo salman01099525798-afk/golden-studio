@@ -1,0 +1,192 @@
+{
+  "Cairo": [
+    "Heliopolis (مصر الجديدة)",
+    "Nasr City (مدينة نصر)",
+    "New Cairo (التجمع الخامس)",
+    "Maadi (المعادي)",
+    "Helwan (حلوان)",
+    "Shubra (شبرا)",
+    "El-Marg (المرج)",
+    "El-Matareya (المطرية)",
+    "Ain Shams (عين شمس)",
+    "El-Salam (السلام)",
+    "Badr City (مدينة بدر)",
+    "15th of May City (مدينة 15 مايو)",
+    "El-Obour (العبور)",
+    "El-Shorouk (الشروق)",
+    "Downtown (وسط البلد)",
+    "Garden City (جاردن سيتي)",
+    "Zamalek (الزمالك)",
+    "El-Sayeda Zeinab (السيدة زينب)",
+    "Old Cairo (مصر القديمة)"
+  ],
+  "Giza": [
+    "Dokki (الدقي)",
+    "Mohandessin (المهندسين)",
+    "Agouza (العجوزة)",
+    "Imbaba (إمبابة)",
+    "El-Haram (الهرم)",
+    "Faisal (فيصل)",
+    "6th of October City (مدينة 6 أكتوبر)",
+    "Sheikh Zayed City (مدينة الشيخ زايد)",
+    "Al-Badrashin (البدرشين)",
+    "El-Saff (الصف)",
+    "Atfih (أطفيح)",
+    "Al-Ayat (العياط)",
+    "Manshiyat El-Qanater (منشأة القناطر)",
+    "Kerdasa (كرداسة)",
+    "Abu Nomros (أبو النمرس)",
+    "El-Wahat El-Bahariya (الواحات البحرية)"
+  ],
+  "Alexandria": [
+    "Montaza (المنتزه)",
+    "Sidi Gaber (سيدي جابر)",
+    "Roushdy (رشدي)",
+    "Sporting (سبورتنج)",
+    "Stanley (ستانلي)",
+    "Smouha (سموحة)",
+    "Sidi Bishr (سيدي بشر)",
+    "Miami (ميامي)",
+    "Victoria (فيكتوريا)",
+    "Gleem (جليم)",
+    "El-Mandara (المندرة)",
+    "El-Max (المكس)",
+    "Agami (العجمي)",
+    "Borg El Arab (برج العرب)"
+  ],
+  "Dakahlia": [
+    "Mansoura (المنصورة)",
+    "Talkha (طلخا)",
+    "Mit Ghamr (ميت غمر)",
+    "Aga (أجا)",
+    "Dekernes (دكرنس)"
+  ],
+  "Sharqia": [
+    "Zagazig (الزقازيق)",
+    "10th of Ramadan (العاشر من رمضان)",
+    "Belbeis (بلبيس)",
+    "Abu Hammad (أبو حماد)",
+    "Minya El Qamh (منيا القمح)"
+  ],
+  "Beheira": [
+    "Damanhour (دمنهور)",
+    "Kafr El Dawwar (كفر الدوار)",
+    "Edku (إدكو)",
+    "Rashid (رشيد)",
+    "Kom Hamada (كوم حمادة)"
+  ],
+  "Qalyubia": [
+    "Banha (بنها)",
+    "Qalyub (قليوب)",
+    "Shubra El-Kheima (شبرا الخيمة)",
+    "El-Khanka (الخانكة)",
+    "Toukh (طوخ)"
+  ],
+  "Monufia": [
+    "Shibin El Kom (شبين الكوم)",
+    "Menouf (منوف)",
+    "Ashmoun (أشمون)",
+    "Sadat City (مدينة السادات)"
+  ],
+  "Gharbia": [
+    "Tanta (طنطا)",
+    "El Mahalla El Kubra (المحلة الكبرى)",
+    "Kafr El Zayat (كفر الزيات)",
+    "Zefta (زفتى)"
+  ],
+  "Kafr El Sheikh": [
+    "Kafr El Sheikh (كفر الشيخ)",
+    "Desouk (دسوق)",
+    "Baltim (بلطيم)",
+    "Fuwwah (فوه)"
+  ],
+  "Damietta": [
+    "Damietta (دمياط)",
+    "New Damietta (دمياط الجديدة)",
+    "Faraskur (فارسكور)",
+    "Ras El Bar (رأس البر)"
+  ],
+  "Port Said": [
+    "Port Said City (بورسعيد)",
+    "Port Fouad (بورفؤاد)"
+  ],
+  "Ismailia": [
+    "Ismailia City (الإسماعيلية)",
+    "Fayed (فايد)",
+    "Qantara (القنطرة)"
+  ],
+  "Suez": [
+    "Suez City (السويس)",
+    "Ataqah (عتاقة)"
+  ],
+  "North Sinai": [
+    "Arish (العريش)",
+    "Sheikh Zuweid (الشيخ زويد)",
+    "Rafah (رفح)"
+  ],
+  "South Sinai": [
+    "Sharm El Sheikh (شرم الشيخ)",
+    "Dahab (دهب)",
+    "Nuweiba (نويبع)",
+    "Taba (طابا)",
+    "El Tor (الطور)"
+  ],
+  "Beni Suef": [
+    "Beni Suef City (بني سويف)",
+    "Nasser (ناصر)",
+    "Ehnasia (إهناسيا)"
+  ],
+  "Fayoum": [
+    "Fayoum City (الفيوم)",
+    "Tamiya (طامية)",
+    "Ibsheway (إبشواي)",
+    "Sinnuris (سنورس)"
+  ],
+  "Minya": [
+    "Minya City (المنيا)",
+    "Mallawi (ملوي)",
+    "Beni Mazar (بني مزار)",
+    "Maghagha (مغاغة)"
+  ],
+  "Assiut": [
+    "Assiut City (أسيوط)",
+    "Abnoub (أبنوب)",
+    "Manfalut (منفلوط)",
+    "Dairut (ديروط)"
+  ],
+  "Sohag": [
+    "Sohag City (سوهاج)",
+    "Girga (جرجا)",
+    "Tahta (طهطا)",
+    "Akhmim (أخميم)"
+  ],
+  "Qena": [
+    "Qena City (قنا)",
+    "Nag Hammadi (نجع حمادي)",
+    "Qus (قوص)",
+    "Deshna (دشنا)"
+  ],
+  "Luxor": [
+    "Luxor City (الأقصر)",
+    "Armant (أرمنت)",
+    "Esna (إسنا)"
+  ],
+  "Aswan": [
+    "Aswan City (أسوان)",
+    "Kom Ombo (كوم أمبو)",
+    "Edfu (إدفو)",
+    "Daraw (دراو)"
+  ],
+  "Red Sea": [
+    "Hurghada (الغردقة)",
+    "Safaga (سفاجا)",
+    "Marsa Alam (مرسى علم)",
+    "El Quseir (القصير)"
+  ],
+  "New Valley": [
+    "Kharga (الخارجة)",
+    "Dakhla (الداخلة)",
+    "Farafra (الفرافرة)",
+    "Baris (باريس)"
+  ]
+}

@@ -1,0 +1,131 @@
+{
+    "Baghdad": [
+        "Adhamiyah",
+        "Karkh",
+        "Karrada",
+        "Sadr City",
+        "New Baghdad",
+        "Rashid",
+        "Kadhimiya",
+        "Mansour",
+        "Dora"
+    ],
+    "Basra": [
+        "Basra City",
+        "Al-Qurna",
+        "Al-Zubair",
+        "Shatt Al-Arab",
+        "Abu Al-Khasib",
+        "Fao"
+    ],
+    "Nineveh": [
+        "Mosul",
+        "Tal Afar",
+        "Sinjar",
+        "Hamdaniya",
+        "Baaj",
+        "Hatra"
+    ],
+    "Erbil": [
+        "Erbil City",
+        "Shaqlawa",
+        "Makhmour",
+        "Soran",
+        "Koisnjaq"
+    ],
+    "Sulaymaniyah": [
+        "Sulaymaniyah City",
+        "Halabja",
+        "Rania",
+        "Kalar",
+        "Chamchamal"
+    ],
+    "Kirkuk": [
+        "Kirkuk City",
+        "Daquq",
+        "Hawija",
+        "Dibis",
+        "Altun Kupri"
+    ],
+    "Diyala": [
+        "Baqubah",
+        "Muqdadiya",
+        "Khalis",
+        "Mandal",
+        "Balad Ruz",
+        "Khanaqin"
+    ],
+    "Anbar": [
+        "Ramadi",
+        "Fallujah",
+        "Haditha",
+        "Hit",
+        "Rutbah",
+        "Qaim",
+        "Karmah"
+    ],
+    "Najaf": [
+        "Najaf City",
+        "Kufa",
+        "Manathera",
+        "Abbasiyah"
+    ],
+    "Karbala": [
+        "Karbala City",
+        "Hindiyah",
+        "Ain al-Tamur"
+    ],
+    "Babil": [
+        "Hilla",
+        "Mahawil",
+        "Musayyib",
+        "Hashimiya"
+    ],
+    "Wasit": [
+        "Kut",
+        "Hayy",
+        "Numaniyah",
+        "Aziziyah",
+        "Badra",
+        "Zubaydiyah"
+    ],
+    "Maysan": [
+        "Amarah",
+        "Kahla",
+        "Mejar al-Kabir",
+        "Ali al-Gharbi",
+        "Qalat Saleh"
+    ],
+    "Dhi Qar": [
+        "Nasiriyah",
+        "Shatrah",
+        "Rifai",
+        "Sukkar",
+        "Gharraf",
+        "Chibayish"
+    ],
+    "Muthanna": [
+        "Samawah",
+        "Rumaitha",
+        "Kidr",
+        "Warka"
+    ],
+    "Qadisiyyah": [
+        "Diwaniyah",
+        "Hamzah",
+        "Shamiya",
+        "Afak"
+    ],
+    "Dohuk": [
+        "Dohuk City",
+        "Zakho",
+        "Amadiya",
+        "Akra",
+        "Simele"
+    ],
+    "Halabja": [
+        "Halabja City",
+        "Said Sadiq",
+        "Khurmal"
+    ]
+}
