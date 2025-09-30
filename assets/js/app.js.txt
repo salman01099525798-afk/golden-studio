@@ -1034,3 +1034,59 @@ function animateValue(obj, start, end, duration) {
     };
     window.requestAnimationFrame(step);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// --- OpenRouter AI Integration ---
+async function getAIResponse(prompt) {
+  try {
+    const response = await fetch("https://openrouter.ai/api/v1/chat/completions", {
+      method: "POST",
+      headers: {
+        "Authorization": `Bearer ${process.env.OPENROUTER_API_KEY}`,
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify({
+        model: "openai/gpt-3.5-turbo", // أو أي موديل تاني مدعوم
+        messages: [{ role: "user", content: prompt }]
+      })
+    });
+
+    const data = await response.json();
+    console.log("AI Response:", data);
+    return data.choices?.[0]?.message?.content || "No response";
+  } catch (error) {
+    console.error("Error calling OpenRouter API:", error);
+    return "⚠️ Error while contacting AI service.";
+  }
+}
+
+// Example: test button
+document.addEventListener("DOMContentLoaded", () => {
+  const testBtn = document.getElementById("test-ai-btn");
+  if (testBtn) {
+    testBtn.addEventListener("click", async () => {
+      const result = await getAIResponse("Give me a creative marketing idea for a coffee shop.");
+      alert(result);
+    });
+  }
+});
